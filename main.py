@@ -1,6 +1,7 @@
 try:
     import requests
     import time
+    import sys
     from os import system
 
     system("title " + "Soud Was Here - @_agf - Soud#0737")
@@ -26,7 +27,7 @@ print("")
 print("")
 print("")
 print("This is simple tool by Soud to check school result")
-
+sys.setrecursionlimit(10000000)
 h = int(input("Enter Your Number: "))
 
 a = requests.Session()
